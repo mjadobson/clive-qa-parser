@@ -1,6 +1,6 @@
 {
   "name": "clive-qa-parser",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A parser for CLIVE Q&A flashcards",
   "bin": {
     "clive-qa-parser": "./script.coffee"

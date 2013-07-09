@@ -192,7 +192,7 @@ saveQuizzesFromIni = (iniFile, src, dest) ->
 	i = 1
 
 	while parsedIni["topic" + i]
-		quizPath = path.join parsedIni.filePath, parsedIni["file" + i]
+		quizPath = path.join parsedIni.filePath, parsedIni["file" + i].trim()
 		quizDest = path.join dest, parsedIni["topic" + i].replace(/(\s+)|\//g, "_") + ".json"
 		quizTxt = fs.readFileSync quizPath, "utf8"
 
