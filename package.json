@@ -1,0 +1,20 @@
+{
+  "name": "clive-qa-parser",
+  "version": "1.0.0",
+  "description": "A parser for CLIVE Q&A flashcards",
+  "bin": {
+    "clive-qa-parser": "./script.coffee"
+  },
+  "dependencies": {
+    "gm": "~1.10.0",
+    "randomstring": "~1.0.2",
+    "async": "~0.2.9"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": "",
+  "author": "mjadobson@gmail.com",
+  "license": "BSD"
+}
