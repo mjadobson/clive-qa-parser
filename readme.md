@@ -8,7 +8,7 @@ Install:
 
 	npm install clive-qa-parser -g
 
-You will also need graphicsmagick installed on your system.
+You will also need graphicsmagick & coffee-script installed on your system.
 
 Usage:
 ------
