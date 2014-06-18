@@ -17,6 +17,44 @@ Usage:
 
 Where `src` is the QA folder, and `dest` is where the *.json files will be written.
 
+Output Data Format:
+-------------------
+
+```json
+{
+	"title": "Test Title",
+	"questions": [
+		{
+			"question": {
+				"text": ".. Question text ..",
+				"media": "./media/kidg277L2Otrz.png",
+			},
+			"answer": {
+				"text": ".. Answer text ..",
+				"media": null
+			}
+		},
+		{
+			"question": {
+				"text": ".. Question text 2 ..",
+				"media": "./media/34ngcv7L2pxy5.png",
+				"labels": [
+					["99", "212", "g"]
+				],
+				"arrows": [
+					["253", "143", "g"],
+					["103", "72", "g"]
+				]
+			},
+			"answer": {
+				"text": ".. Answer text 2 ..",
+				"media": "./media/9dgg4fhs8fhjc.png"
+			}
+		}
+	]
+}
+```
+
 Notes:
 -----
 
